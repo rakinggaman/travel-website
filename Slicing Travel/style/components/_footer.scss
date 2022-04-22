@@ -1,0 +1,32 @@
+.footer {
+    background: $black-color;
+    padding: 50px 0;
+    .footer-brand {
+        font-size: $heading-4-size;
+        font-weight: 600;
+        color: $orange-color;
+        text-decoration: none;
+        span {
+            color: $white-color;
+        }
+    }
+    .footer-text {
+        color: $white-color;
+    }
+    .footer-title {
+        font-size: $heading-4-size;
+        font-weight: 600;
+    }
+    .footer-list {
+        list-style: none;
+        padding: 0;
+        li {
+            a {
+                text-decoration: none;
+                color: $white-color;
+                font-size: $body-2-size;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

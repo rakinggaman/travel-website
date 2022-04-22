@@ -1,0 +1,79 @@
+.hero {
+    background: rgba(242, 100, 64, 0.03);
+    h1 {
+        font-size: $heading-1-size;
+        font-weight: 700;
+        color: $black-color;
+    }
+    p {
+        font-size: $body-1-size;
+        font-weight: 500;
+        color: $grey-color;
+    }
+    .hero-image {
+        width: 640px;
+        height: 500px;
+    }
+}
+
+.service {
+    .card-service {
+        transition: 2s;
+        .card-body {
+            img {
+                width: 100px;
+                margin-bottom: 30px;
+            }
+            h3 {
+                font-size: $heading-4-size;
+                font-weight: 600;
+                color: $black-color;
+            }
+            p {
+                font-weight: 400;
+                color: $grey-color;
+            }
+        }
+        &:hover {
+            transform: translateY(-20px);
+        }
+    }
+    .card-destination {
+        height: 350px;
+        background-size: cover;
+        border-radius: 10px;
+        transition: 2s;
+        .card-body {
+            background: linear-gradient( 180deg, rgba(0, 0, 0, 0) 48.96%, #000000 100%);
+            position: relative;
+        }
+        &:hover {
+            transform: translateY(-20px);
+        }
+        .content {
+            position: absolute;
+            bottom: 20px;
+            h3 {
+                color: $white-color;
+            }
+            p {
+                color: $softgrey-color;
+            }
+        }
+    }
+}
+
+.guide {
+    .card {
+        .rating {
+            .bx {
+                color: gold;
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+.review {
+    background: rgba(242, 100, 64, 0.03);
+}

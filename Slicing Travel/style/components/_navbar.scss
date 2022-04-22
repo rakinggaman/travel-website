@@ -1,0 +1,25 @@
+.navbar {
+    .navbar-brand {
+        font-size: $heading-4-size;
+        font-weight: 600;
+        color: $orange-color;
+        span {
+            color: $black-color;
+        }
+    }
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: $black-color;
+                font-size: $body-2-size;
+                font-weight: 500;
+                &.active {
+                    color: $orange-color;
+                }
+                &:hover {
+                    color: $orange-color;
+                }
+            }
+        }
+    }
+}

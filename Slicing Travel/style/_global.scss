@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    padding: 100px 0;
+    .section-title {
+        font-size: $heading-2-size;
+        font-weight: 700;
+        color: $black-color;
+    }
+}
